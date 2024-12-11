@@ -82,14 +82,8 @@ for encodefac, facloc in zip(encodecurframe, facescurframe):
         name = classname[np.argmin(facdis)].capitalize()
         # Mark attendance
 
-
-![Screenshot (153)](https://github.com/user-attachments/assets/b6920552-18f9-4eee-b647-6932ba1562ab)
-
-
-
-
-
 ```
+![Screenshot (153)](https://github.com/user-attachments/assets/b6920552-18f9-4eee-b647-6932ba1562ab)
 
 ### Attendance Recording
 Attendance is logged in a CSV file with the person's name and timestamp:
